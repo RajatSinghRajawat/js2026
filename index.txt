@@ -1,0 +1,183 @@
+programing langauge =====>
+1.In programing langauge compiler is used to convert higher level language to low level langauge
+2. Statically typed || Strictly type Statically typed ya strictly typed language me variable ka data type pehle hi declare karna padta hai aur baad me usko change nahi kar sakte.
+Aise languages me program run karne se pehle compilation karni padti hai.
+Compiler pehle code check karta hai (errors ke liye) aur phir executable banata hai.
+Agar error hai to program run nahi hoga.
+String a
+int a
+float a
+
+3. compilation is required to run any program.
+
+============================
+Scripting language ==>
+1. in Scripting language is used to convert higher level langauge to lower level language
+2. Dynamicaly typed | loosely typed
+var a=10;
+var x=10.5;
+var c="Ram"
+var b = true
+
+3. compilation is not required to run any script
+
+=============================
+web server ==>
+1. web server is a software providing enivironment to run web appication
+2. main function of web server is to handle http request from client and sent the response to client
+
+exa --> iis,apache ,tomcat,glassfish
+
+client ===>
+1. client is a machine or device (laptop,desktop,mobile,tv) used to sent http request to web server and handle response from web server.
+2. web browser is knows as client
+
+client side langauge ==>
+the language which are running within web browser are known as client side langauge
+exa --> js,jquery,react.js,angular ,vue.js
+
+server side langauge===>
+the langauge which are running within web server are known as server side langauge.
+exa --> php,node.js etc.
+
+
+
+
+
+
+************************************************* introduction in javascrpt ************************
+
+******************************
+
+1. What is javascript --> JavaScript is called a client-side scripting language because it was designed to run in the client's browser, directly affecting what the user sees and interacts with on a webpage. It controls dynamic elements on the front end, providing immediate feedback and interactivity without relying on server-side processing for most tasks.
+
+==> 1995 ==> Moch ==> liveScript
+javascript wat developed by Brendan Eich 1996
+
+
+************************** why do we say that javascript needs a web browser to run
+
+1.because they come with a built-in JavaScript engine that interprets and executes the JavaScript code.
+2.Each browser has a JavaScript engine (e.g., Google Chrome uses V8, Firefox uses SpiderMonkey) that interprets and runs the code.
+
+For other programming languages, you need specific environments or interpreters:
+
+1.Python:  CPython, or  Jupyter notebooks.
+C++:  compilers like GCC or Visual Studio 
+Java:  Java Runtime Environment (JRE) or Java Development Kit (JDK) to run Java bytecode.
+Node.js: Allows JavaScript to be run outside the browser, used for back-end development. It uses Chrome's V8 engine but in a server environment.
+
+
+
+
+
+*****************************
+.JavaScript is technically both a scripting language and a programming language depending on how you define and use it.
+
+1. Scripting Language:
+Client-Side Scripting: JavaScript was initially created as a client-side scripting language to handle tasks like form validation, animations, and responding to user interactions within the web browser. It doesn't need to be compiled and is interpreted directly by the browser.
+Example of Scripting Use: Changing the content of an HTML element based on user interaction, like showing a popup message when a button is clicked.
+
+2. Programming Language:
+What It Means: A programming language is a broader term that includes languages used to write full applications, control hardware, manage data structures, and handle logic.
+JavaScript Beyond the Browser: With the introduction of Node.js, JavaScript expanded beyond the browser and became a powerful general-purpose programming language. It can now be used to build full applications, manage servers, handle databases, and much more.
+Example of Programming Use: Building a full web application, creating APIs, and writing backend logic using JavaScript in Node.js.
+
+
+*******************************
+
+.we can use javascript in website development, web application and mobile development , also vs code created with html,css,javascript
+
+different  between website and web application.
+1. Website: which Static and limited interactivity.
+    .only frontend part created and make with text,image or video 
+    . no any complex functionality
+    exa --> blog,news portfolio website etc.
+
+2. Web Application :   A web application is a more interactive and dynamic system that requires user input and allows for complex interactions. It performs specific tasks based on user interactions and often includes backend logic for processing data. 
+    . which have fronted and backend part
+    . exa --> facebook,uber,google docs,netflix,  
+
+
+**************************************
+
+.javascript is scripting language , we can say that all scripting language as a programing language but programing language is not scripting langauge
+
+. script langauge not need compile ,  but without compile Programing language not run
+
+.every script and programing langauge have a language converter which convert high language (english alphabets) to low language (machine language 0 and 1) which help to computer what i do . script have interpreter and programing language have compiler
+
+
+******************************************
+features of js
+1. js provides client side validation
+2. interpreter based
+3. dom accessing
+4. dom manipulation
+5.  event handling
+6. object orient scripting langauge
+7. js is simple and easy
+
+
+extensions --> javascript (ES6) code 
+
+
+
+
+
+
+
+
+
+1️⃣ Data Science ka main hero kaun?
+👉 Python (sabse zyada)
+👉 R (statistics ke liye)
+
+2️⃣ JavaScript kahan kaam aati hai?
+
+✔ Data Visualization
+
+Charts, graphs, dashboards banane me
+
+Libraries: D3.js, Chart.js, Recharts
+
+✔ Frontend + Data Science
+
+ML / data model ka output web app me dikhane ke liye
+
+Example: prediction result, analytics dashboard
+
+✔ Node.js + Data Handling
+
+APIs banana jo data serve kare
+
+Real-time data (WebSockets)
+
+✔ Basic ML (limited)
+
+Libraries: TensorFlow.js
+
+Browser ya JS-based apps me ML use karna
+
+3️⃣ JavaScript kahan weak hai?
+
+❌ Heavy data analysis
+❌ Statistics & mathematics
+❌ Large datasets processing
+👉 Yahan Python >> JavaScript
+
+Simple Conclusion 💡
+
+Agar pure Data Scientist banna hai → Python zaroori
+
+Agar Data + Web + Dashboard banana hai → JS + Python best combo
+
+JS supporting role me hai, main tool nahi
+
+👉 Chaaho to main bata sakta hoon:
+
+Data Science roadmap (Python + JS)
+
+JS se dashboard ka real example
+
+Frontend dev se data science ka transition path
