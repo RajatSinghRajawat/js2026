@@ -19,9 +19,8 @@ console.log("hello world")
 // console.log(add);
 
 
+// const add = 455
+//  add = 4556
 
+// console.log(add);
 
-const add = 455
- add = 4556
-
-console.log(add);
