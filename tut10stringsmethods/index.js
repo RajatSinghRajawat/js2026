@@ -1,25 +1,36 @@
-// let start = prompt("enter yoru name ")
-
-// console.log( start.length);
-// let text = "Hello World";
-// console.log(text.includes("World"));
+// let userName = ""
 
 
-// let text = "Hello World";
-// console.log(text.indexOf("World"));
 
-// let text = "I love JS";
-// console.log(text.replace(" ", "JavaScript"));
 
-// let a = "Hello";
-// let b = " World";
+// console.log(userName.length)
+// console.log(userName.toUpperCase());
+// console.log(userName.toLowerCase());
+// console.log(userName.trim());
+// console.log(userName.trimStart());
+
+// // console.log(userName.includes());
+
+
+
+let a = "i am gaurav"
+
+
 // console.log(a.concat(b));
+console.log(a.replace("gaurav", "love"));
 
-// let num = "7";
-// console.log(num.padStart(3, "0"));
 
-// let text = "Hello";
-// console.log(text.charAt(1));
+let b = " hellloo hii"
+console.log(b.includes("hii"));
 
-let text = "Hello World JS";
+
+
+let text = "Hello World";
 console.log(text.split(" "));
+
+
+
+
+// let k = "sdds "
+
+// console.log(k.padStart("3" , 0));
