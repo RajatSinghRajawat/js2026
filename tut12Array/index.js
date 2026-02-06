@@ -37,8 +37,8 @@ let arr = [1,2,3,4,5]
 // shift remove first value in our array
 
 
-arr.shift()
-console.log(arr);
+// arr.shift()
+// console.log(arr);
 
 
 
@@ -52,7 +52,24 @@ console.log(arr);
 // console.log(arr.join("*"));
 
 
-const user = "45"
-console.log(typeof user);
+// const user = "45"
+// console.log(typeof user);
 
-console.log(typeof parseInt(user));
+// console.log(typeof parseInt(user));
+
+
+const arr1 = [1,8,3,4,5,5]
+const arr2 = [6,7,8,9,10]
+
+console.log(arr1.concat(arr2));
+console.log(arr2.includes(7));
+console.log(arr1.reverse());
+console.log("sort" ,arr1.sort());
+
+// console.log(arr1.slice(1,2));
+// splice( first , deltee , add)
+
+console.log(  " splice ",  arr1.splice(1,4 , 2));
+console.log(arr1);
+
+
