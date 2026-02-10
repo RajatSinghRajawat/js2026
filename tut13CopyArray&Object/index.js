@@ -20,12 +20,22 @@
 // console.log(arr2);
 
 
-const obj1 = {
-    name: "John",
-    age: 30,
-    city: "New York"
-};
+// const obj1 = {
+//     name: "John",
+//     age: 30,
+//     city: "New York"
+// };
 
-const obj3 = Object.assign({},obj1);
+// const obj3 = Object.assign({},obj1);
 
-console.log(obj3);
+// console.log(obj3);
+
+
+
+
+// let a = 7;
+// let b = 8;
+// let c = a++;
+// b=c++;
+// console.log(a);
+// console.log(b);

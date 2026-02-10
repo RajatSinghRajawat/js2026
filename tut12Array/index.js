@@ -58,18 +58,18 @@ let arr = [1,2,3,4,5]
 // console.log(typeof parseInt(user));
 
 
-const arr1 = [1,8,3,4,5,5]
-const arr2 = [6,7,8,9,10]
+// const arr1 = [1,8,3,4,5,5]
+// const arr2 = [6,7,8,9,10]
 
-console.log(arr1.concat(arr2));
-console.log(arr2.includes(7));
-console.log(arr1.reverse());
-console.log("sort" ,arr1.sort());
+// console.log(arr1.concat(arr2));
+// console.log(arr2.includes(7));
+// console.log(arr1.reverse());
+// console.log("sort" ,arr1.sort());
 
-// console.log(arr1.slice(1,2));
-// splice( first , deltee , add)
+// // console.log(arr1.slice(1,2));
+// // splice( first , deltee , add)
 
-console.log(  " splice ",  arr1.splice(1,4 , 2));
-console.log(arr1);
+// console.log(  " splice ",  arr1.splice(1,4 , 2));
+// console.log(arr1);
 
-
+console.log(1 - '1')
