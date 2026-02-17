@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Variable Scope</title>
+</head>
+<body>
+
+  <h1>JavaScript Variable Scope - Theory</h1>
+
+  <h2>1. Global Scope</h2>
+  <p>
+    Global scope ka variable poori file me accessible hota hai.
+    Function ke bahar declare kiya jata hai.
+  </p>
+
+  <h2>2. Function Scope</h2>
+  <p>
+    Function ke andar declare variable sirf us function me use hota hai.
+    Mostly <b>var</b> function scope follow karta hai.
+  </p>
+
+  <h2>3. Block Scope</h2>
+  <p>
+    ES6 me <b>let</b> aur <b>const</b> block scope follow karte hain.
+    Curly braces { } ke andar hi accessible rehte hain.
+  </p>
+
+  <h2>var vs let vs const</h2>
+  <ul>
+    <li>var → function scoped</li>
+    <li>let → block scoped</li>
+    <li>const → block scoped (value change nahi hoti)</li>
+  </ul>
+
+  <h3>Console Open karo (F12) aur output dekho 🔥</h3>
+{ } = Block
+
+let   → block scope
+const → block scope
+var   → block ignore
+
+  <script src="index.js"></script>
+</body>
+</html>
