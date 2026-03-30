@@ -1,13 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>JSON Fetch</title>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
+}
+
+/* MAIN LAYOUT */
+.main {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 200px;
+  background: #34495e;
+  color: white;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* CARDS CONTAINER */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CARD */
+.card {
+  background: #3498db;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+
+  /* FLEX CHILD MAGIC */
+  flex: 1 1 200px;
+}
+</style>
 <body>
 
-<h1>Check Console</h1>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <h2>My Dashboard</h2>
+  </div>
 
-<script src="index.js"></script>
+  <div class="main">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <p>Dashboard</p>
+      <p>Users</p>
+      <p>Orders</p>
+      <p>Settings</p>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="content">
+      
+      <div class="cards">
+        <div class="card">Users</div>
+        <div class="card">Orders</div>
+        <div class="card">Revenue</div>
+        <div class="card">Reports</div>
+      </div>
+
+    </div>
+
+  </div>
 
 </body>
 </html>

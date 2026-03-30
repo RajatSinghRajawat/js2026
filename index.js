@@ -1,28 +1,82 @@
-// const data = [
-//   {
-//     user:"abhi",
-//     age:25,
-//     me:{
-//       user:"rajat",
-//       age:[1,2,3]
+// // duplicate values in array
+// let arr = [1, 2, 2, 3, 4, 4, 5];
+// let result = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//     let isDuplicate = false;
+
+//     for (let j = 0; j < result.length; j++) {
+//         if (arr[i] === result[j]) {
+//             isDuplicate = true;
+//         }
 //     }
-//   }
-// ]
 
-// console.log(data[0].me.age[2]);
+//     if (!isDuplicate) {
+//         result.push(arr[i]);
+//     }
+// }
+
+// console.log(result);
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [3, 4, 5];
+
+// let merged = [];
+// let result = [];
+
+// // merge
+// for (let i = 0; i < arr1.length; i++) {
+//     merged.push(arr1[i]);
+// }
+
+// for (let i = 0; i < arr2.length; i++) {
+//     merged.push(arr2[i]);
+// }
+
+// // remove duplicates
+// for (let i = 0; i < merged.length; i++) {
+//     let found = false;
+
+//     for (let j = 0; j < result.length; j++) {
+//         if (merged[i] === result[j]) {
+//             found = true;
+//         }
+//     }
+
+//     if (!found) {
+//         result.push(merged[i]);
+//     }
+// }
+
+// console.log(result);
 
 
 
-const array = [1, 2, 3, 4, 5];
 
-let element = [];
 
-let j = 0;
 
-for (let i = array.length - 1; i >= 0; i--) {
-  element[j] = array[i];
-  j++;
+
+
+
+
+
+
+
+
+let a = "pw w kew"
+let b = []
+for (let i = 0; i < a.length; i++) {
+    let dup = false
+    for (let j = 0; j < b.length; j++) {
+        if (a[i] = a[j]) {
+            dup = true
+        }
+    }
+
+
+    if (!dup) {
+        b.push(a[i])
+    }
+
 }
-
-console.log(element);
-
