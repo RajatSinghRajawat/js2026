@@ -1,47 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    .card {
-      width: 100%;
-      height: 200px;
-      background-color: rgb(0, 255, 0);
-    }
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: move 2s infinite;
+}
 
-    .flex {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      gap: 2rem;
-    }
-
-    /* Tablet */
-    @media (max-width: 900px) {
-      .flex {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
-    /* Mobile */
-    @media (max-width: 600px) {
-      .flex {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+@keyframes move {
+  from {
+   background-color: green;
+   animation-timing-function: ease-in;
+  }
+  to {
+   background-color: yellow;
+  }
+}
+</style>
 </head>
 
 <body>
-  <div class="flex">
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-    <div class="card"></div>
-  </div>
-
+  <div class="box"></div>
 </body>
-
 </html>
