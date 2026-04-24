@@ -53,32 +53,19 @@
 
 // console.log(result);
 
+// let a = "pw w kew"
+// let b = []
+// for (let i = 0; i < a.length; i++) {
+//     let dup = false
+//     for (let j = 0; j < b.length; j++) {
+//         if (a[i] = a[j]) {
+//             dup = true
+//         }
+//     }
 
 
+//     if (!dup) {
+//         b.push(a[i])
+//     }
 
-
-
-
-
-
-
-
-
-
-
-let a = "pw w kew"
-let b = []
-for (let i = 0; i < a.length; i++) {
-    let dup = false
-    for (let j = 0; j < b.length; j++) {
-        if (a[i] = a[j]) {
-            dup = true
-        }
-    }
-
-
-    if (!dup) {
-        b.push(a[i])
-    }
-
-}
+// }
