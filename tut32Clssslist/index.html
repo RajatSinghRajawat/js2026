@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    1. Add Class
+    document.getElementById("box").classList.add("active");
+
+    2. Remove Class
+    document.getElementById("box").classList.remove("red");
+
+    3. Toggle Class
+
+    Agar class hai to remove karega, nahi hai to add karega.
+
+    document.getElementById("box").classList.toggle("dark");
+
+    4. Check Class
+    document.getElementById("box").classList.contains("active");
+
+    5. Replace Class
+    document.getElementById("box").classList.replace("red", "blue");
+    <div id="box" class="red">Hello</div>
+</body>
+<script>
+    // document.getElementById("box").classList.add("active").style.color = "blue"
+</script>
+
+</html>

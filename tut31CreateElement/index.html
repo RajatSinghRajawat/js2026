@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    createElement() → element banata hai <br>
+    appendChild() → DOM me add karta hai <br>
+    remove() → element delete karta hai <br>
+    removeChild() → parent se delete karta hai <br>
+    replaceChild() → element ko replace karta hai <br>
+
+    <input type="text " id="input">
+    <button id="btn">add</button>
+    <ul id="ul"></ul>
+
+</body>
+<script>
+
+    const btn = document.getElementById("btn")
+    // const p = document.createElement("p")
+    // btn.appendChild(p)
+    // console.log(btn)   
+
+
+
+    btn.addEventListener("click", () => {
+        const input = document.getElementById("input").value;
+        const list = document.getElementById("ul");
+
+        const li = document.createElement("li")
+
+        list.appendChild(li)
+        li.innerHTML = `
+        <div>
+
+            <div>${input}</div>
+            <button>edit</button>
+            <button>Delete</button>
+
+            
+            </div>
+
+        
+        `
+       
+
+    })
+</script>
+
+
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>innerText</h1>
+
+    innerText sirf visible text ko access karta hai (jo user ko screen par dikh raha hai).
+    <h1>innerHtml</h1>
+    innerHTML element ke andar ka poora HTML content (tags ke saath) return karta hai.
+    <div id="div"></div>
+
+
+</body>
+
+<script>
+
+    const divs = document.getElementById("div");
+    divs.innerHTML = "<h2>Hello Bro 🔥</h2>";
+
+
+
+</script>
+
+</html>
