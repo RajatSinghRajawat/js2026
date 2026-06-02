@@ -1,67 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card" style="width: 100%;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card" style="width: 100%;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card" style="width: 100%;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12">
-        <div class="card" style="width: 100%;">
-          <img src="..." class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>MOb</th>
+                <th>Course</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+
+            <tr>
+                <td>1</td>
+                <td>Rohit</td>
+                <td>22</td>
+                <td>1234567890</td>
+                <td>BCA</td>
+                <td>Delhi</td>
+
+
+        </tbody>
+    </table>
+
+
+  <h1>Press Arrow Up Key</h1>
+  <a href="https://admin.readymadewall.in/" target="_blank" rel="noopener noreferrer">
+    External Site
+  </a>
+
+  <a href="mailto:rajatsinghrajawatrajawat@gmail.com">Email us</a>
+  <br>
+  <a href="tel:+917300382651">Call us</a>
+
+
+  
+<!-- 
+
+  <table>
+    <caption>Monthly Sales Report — Q3 2025</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">Month</th>
+        <th scope="col">Revenue</th>
+        <th scope="col">Orders</th>
+        <th scope="col">Growth</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <th scope="row">July</th>
+        <td>₹1,20,000</td>
+        <td>340</td>
+        <td>+12%</td>
+      </tr>
+      <tr>
+        <th scope="row">August</th>
+        <td>₹1,45,000</td>
+        <td>390</td>
+        <td>+20%</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <th scope="row">Total</th>
+        <td>₹2,65,000</td>
+        <td>730</td>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table> -->
+
+  <dialog id="my-modal">
+    <h2>Are you sure?</h2>
+    <p>This action cannot be undone.</p>
+    <button onclick="document.getElementById('my-modal').close()">Cancel</button>
+    <button>Confirm</button>
+  </dialog>
+  <button onclick="document.getElementById('my-modal').showModal()">Open modal</button>
+
+  <input list="cities" name="city" placeholder="Type a city...">
+  <datalist id="cities">
+    <option value="Mumbai">
+    <option value="Delhi">
+    <option value="Bangalore">
+    <option value="Chennai">
+    <option value="Hyderabad">
+  </datalist>
+
+
+
+
+
+
+  <label for="upload">Upload progress:</label>
+  <progress id="upload" value="65" max="100">65%</progress>
+
+    <video src=""></video>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </html>

@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
+<style>
+
+
+    .dark {
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+</style>
 
 <body>
-    1. Add Class
+    <!-- 1. Add Class
     document.getElementById("box").classList.add("active");
 
     2. Remove Class
@@ -25,10 +37,82 @@
 
     5. Replace Class
     document.getElementById("box").classList.replace("red", "blue");
-    <div id="box" class="red">Hello</div>
+
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button id="box" onclick="addClass()" class="red">Hello</button>
+
+    <button id="mode" onclick="toggleDark()"></button>
+
+    <div class="div">
+
+    </div>
+
+
+
+
 </body>
 <script>
-    // document.getElementById("box").classList.add("active").style.color = "blue"
+
+    
+
+    function toggleDark() {
+
+
+
+        body.classList.toggle("dark")
+
+    }
+
+    const add = document.getElementById("box")
+    const mode = document.getElementById("mode")
+    const div = document.querySelector(".div")
+    const body = document.body
+
+
+    function addClass() {
+
+
+        if (div.innerHTML !== " ") {
+            div.innerHTML = " "
+        } else {
+
+            div.innerHTML = `
+        <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+         `
+        }
+
+
+
+
+    }
+
+
+
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </html>
