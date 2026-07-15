@@ -8,24 +8,38 @@
 </head>
 
 <body>
-    <input type="text" id="local" placeholder="localstorage">
-    <button id="btn">Get localStorage</button>
-    <div id="show"></div>
+    localStorage is a Web Storage API in JavaScript that allows you to store data in the browser as key-value pairs. The
+    data persists even after the browser is closed and reopened.
 
-    </div>
+    localStorage.setItem("username", "John");
+
+    const username = localStorage.getItem("username");
+    console.log(username); // John
+
+
+    localStorage.removeItem("username");
+
+
+    localStorage.clear();
+
+    Store Objects
+
+    Since localStorage only stores strings, use JSON.stringify() and JSON.parse():
+
+    const user = {
+    name: "John",
+    age: 25
+    };
+
+    localStorage.setItem("user", JSON.stringify(user));
+
+    We use JSON.parse() because localStorage can only store strings.
+
+When you save an object, you first convert it into a JSON string using JSON.stringify().
 </body>
 <script>
 
-    const local = document.getElementById("local")
-    const btn = document.getElementById("btn")
-    const show = document.getElementById("show")
-    
-    btn.addEventListener("click", () => {
-        console.log(local.value)
-        localStorage.setItem("data", local.value)
-        show.innerHTML = localStorage.getItem("data")
-    })
-
+  
 
 
 </script>
